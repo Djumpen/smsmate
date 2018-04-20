@@ -27,7 +27,7 @@
         "jvectormap": "^2.0.4",
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
-        "moment": "^2.18.1",
+        "moment": "^2.19.3",
         "perfect-scrollbar": "^0.8.0",
         "sweetalert2": "^6.6.10",
         "twitter-bootstrap-wizard": "^1.2.0",
