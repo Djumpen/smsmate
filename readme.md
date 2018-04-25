@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rdehnhardt/skeleton/master/public/img/logo.png" width="70%">
-</p>
-
-## Disable register
-
-This application has disabled registration page.
-
 ## Route system
 
 The routing folder for this application has been changed to the application Http folder.
