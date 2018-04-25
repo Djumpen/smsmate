@@ -13,4 +13,7 @@ return [
     'update' => 'Update',
     'create' => 'Create',
     'back' => 'Back',
+    'remote-accounts' => 'Remote Accounts',
+
+    'phone' => 'Phone number'
 ];

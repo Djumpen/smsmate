@@ -24,6 +24,10 @@ class Back
 
             # Contacts
             $router->resource('contacts', 'ContactsController');
+
+            $router->resource('remote-accounts', 'RemoteAccountsController');
+            $router->post('remote-accounts/single', 'RemoteAccountsController@addSingle')->name('remote-accounts.addSingle');
+            $router->post('remote-accounts/mass', 'RemoteAccountsController@addMass')->name('remote-accounts.addMass');
         });
     }
 }

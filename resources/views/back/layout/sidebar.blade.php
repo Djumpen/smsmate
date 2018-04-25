@@ -1,13 +1,13 @@
 <div class="sidebar" data-color="black" data-image="/img/full-screen-image-{{ $background }}.jpg">
     <div class="logo">
         <a href="{{ route('back.dashboard') }}" class="logo-text">
-            <img src="/img/logo-white.png" height="40"/>
+            <img src="/img/sitelogo.png" height="60"/>
         </a>
     </div>
 
     <div class="logo logo-mini">
         <a href="{{ route('back.dashboard') }}" class="logo-text">
-            <img src="/img/icon.png" width="40"/>
+            <img src="/img/sitelogo.png" width="70"/>
         </a>
     </div>
 
@@ -25,6 +25,13 @@
         </div>
 
         <ul class="nav">
+            <li class="{{ Route::is('back.remote-accounts.index') ? 'active' : '' }}">
+                <a href="{{ route('back.remote-accounts.index') }}">
+                    <i class="fa fa-list-alt"></i>
+                    <p>@lang('dictionary.remote-accounts')</p>
+                </a>
+            </li>
+
             <li class="{{ Route::is('back.contacts.index') ? 'active' : '' }}">
                 <a href="{{ route('back.contacts.index') }}">
                     <i class="fa fa-address-book"></i>
